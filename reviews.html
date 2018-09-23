@@ -6,117 +6,133 @@
   <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/themes/base/jquery-ui.css" type="text/css" media="all" />  
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" type="text/css" href="style1.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 
-  <title>reviews</title>
+  <title>Reviews</title>
 </head>
-<body>
-  <header class="bg-dark py-3 mt-3 d-flex ">
-    <div class="container-fluid header">
+
+
+
+<!-- ======================================== header section =============================== -->
+
+<header class="bg-dark py-3 mt-3 d-flex ">
+  <div class="container-fluid header">
     <div class="d-flex bd-highlight ">
       <div class="p-2 flex-grow-1 bd-highlight navbar-brand headerElements "> <a href="#"><i class="fas fa-plane"></i> SkySpinner</a></div>
-        <div class="p-2 bd-highlight headerElements">
-            <div class="dropdown">
-              <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Currency
-              </a>
-
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <a class="dropdown-item" href="#">EURO</a>
-                <a class="dropdown-item" href="#">USD</a>
-                <a class="dropdown-item" href="#">EGP</a>
-              </div>
-            </div>
-        </div>
-        <div class="p-2 bd-highlight headerElements">
+      <div class="p-2 bd-highlight headerElements">
         <div class="dropdown">
           <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Lang
+          Currency
           </a>
-
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#">EURO</a>
+            <a class="dropdown-item" href="#">USD</a>
+            <a class="dropdown-item" href="#">EGP</a>
+          </div>
+        </div>
+      </div>
+      <div class="p-2 bd-highlight headerElements">
+        <div class="dropdown">
+          <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Lang
+          </a>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
             <a class="dropdown-item" href="#">EN-US</a>
             <a class="dropdown-item" href="#">Deutsch</a>
             <a class="dropdown-item" href="#">Arabic</a>
           </div>
         </div>
-        </div>
+      </div>
     </div>
-    </div>
-  </header>
+  </div>
+</header>
 
+  
+<!-- ======================================== navbar section ========================= -->
+
+<body>
   <div class="nav-scroller bg-white shadow-sm">
-      <nav class="nav nav-underline">
-        <a class="nav-link active" href="#">Dashboard</a>
-        <a class="nav-link" href="#">
-          Friends
-          <span class="badge badge-pill bg-light align-text-bottom">27</span>
-        </a>
-        <a class="nav-link" href="#">Explore</a>
-        <a class="nav-link" href="#">Suggestions</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link" href="#">Link</a>
-      </nav>
-    </div>
+    <nav class="nav nav-underline">
+      <a class="nav-link active" href="travel.html">Home</a>
+      <a class="nav-link" href="signup.html">Sign in</a>
+      <a class="nav-link" href="reviews.html">Reviews</a>
+      <a class="nav-link" href="about.html">About</a>
+    </nav>
+  </div>
     
+
+
+<!-- ========================================= main section ================================= -->
+
   <main role="main" class="container">
       <div class="d-flex align-items-center p-3 my-3 text-white-50 bg-purple rounded shadow-sm">
-        <img class="mr-3" src="../../assets/brand/bootstrap-outline.svg" alt="" width="48" height="48">
+        <img class="mr-3" src="images/s.png" alt="" width="48" height="48">
         <div class="lh-100">
-          <h6 class="mb-0 text-white lh-100">Bootstrap</h6>
-          <small>Since 2011</small>
+          <h6 class="mb-0 text-white lh-100">Skyspinner</h6>
+          <small>Since 2018</small>
         </div>
       </div>
 
       <div class="my-3 p-3 bg-white rounded shadow-sm">
-        <h6 class="border-bottom border-gray pb-2 mb-0">Recent updates</h6>
+        <h6 class="border-bottom border-gray pb-2 mb-0">Recent reviews</h6>
         <div class="media text-muted pt-3">
-          <img data-src="holder.js/32x32?theme=thumb&bg=007bff&fg=007bff&size=1" alt="" class="mr-2 rounded">
+          <img src="images/andrew.jpg" alt="" width="50" height="50" class="mr-2 rounded">
           <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-            <strong class="d-block text-gray-dark">@username</strong>
+            <strong class="d-block text-gray-dark">@andrewMead</strong>
             Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
           </p>
         </div>
         <div class="media text-muted pt-3">
-          <img data-src="holder.js/32x32?theme=thumb&bg=e83e8c&fg=e83e8c&size=1" alt="" class="mr-2 rounded">
+          <img src="images/criss.png" width="50" height="50" alt="" class="mr-2 rounded">
           <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-            <strong class="d-block text-gray-dark">@username</strong>
+            <strong class="d-block text-gray-dark">@criss75</strong>
             Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
           </p>
         </div>
         <div class="media text-muted pt-3">
-          <img data-src="holder.js/32x32?theme=thumb&bg=6f42c1&fg=6f42c1&size=1" alt="" class="mr-2 rounded">
+          <img src="images/doc.jpg" width="50" height="50" alt="" class="mr-2 rounded">
           <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-            <strong class="d-block text-gray-dark">@username</strong>
+            <strong class="d-block text-gray-dark">@freder99</strong>
+            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+          </p>
+        </div>
+        <div class="media text-muted pt-3">
+          <img src="images/richard.jpg" width="50" height="50" alt="" class="mr-2 rounded">
+          <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+            <strong class="d-block text-gray-dark">@richard</strong>
+            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+          </p>
+        </div>
+        <div class="media text-muted pt-3">
+          <img src="images/carol.jpg" width="50" height="50" alt="" class="mr-2 rounded">
+          <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+            <strong class="d-block text-gray-dark">@carol</strong>
             Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
           </p>
         </div>
         <small class="d-block text-right mt-3">
-          <a href="#">All updates</a>
+          <a href="#">All reviews</a>
         </small>
       </div>
-    
-  </div>
+  </main>
+
+
 
    <!--=================================================footer section =============================== -->
 
   <footer  class="bg-dark py-3 mt-3 d-flex">
-     
-      <div class="col text-center text-white align-self-start">
-        <h5>Copy Rights &copy;</h5>
-      </div>
-      
-      <div class="col text-white text-center align-self-end">
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-instagram"></i>
-      </div>
+    <div class="col text-center text-white align-self-start">
+      <h5>Copy Rights &copy;</h5>
+    </div>  
+    <div class="col text-white text-center align-self-end">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+    </div>
   </footer>
 
+   
+<!-- ======================================== script section ====================== -->
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
